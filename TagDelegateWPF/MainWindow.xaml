@@ -1,0 +1,14 @@
+﻿<Window x:Class="TagDelegateWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <StackPanel Name="stackPanelButtons">
+        <Button Content="WPF" Height="43" Click="Button_Click"/>
+        <Button Content="WCF" Height="43" Click="Button_Click" />
+        <Button Content="ASP.NET" Height="43" Click="Button_Click"/>
+        <Button Content="Windows Forms" Height="43" Click="Button_Click"/>
+        <Button Content="ASP.NET MVC" Height="43" Click="Button_Click"/>
+        <Button Content="ADO.NET" Height="43" Click="Button_Click" />
+        <Button Content="ADO.NET Enity Framework" Height="43" Click="Button_Click"/>
+    </StackPanel>
+</Window>
